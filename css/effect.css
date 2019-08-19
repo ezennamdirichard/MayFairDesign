@@ -1,0 +1,27 @@
+.navbar-fixed-top.scrolled {
+  background-color: orange !important;
+  transition: background-color 200ms linear;
+}
+
+p~a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration-line: none;
+}
+
+.btn-yel:hover{
+  background-color: #fff;
+  border: 2px solid orange;
+  color: orange;
+}
+.view:hover{
+  background-color: orange;
+  border: none;
+  color: #fff;
+}
+.cardSummit:hover{
+  background-color: #fff;
+  border: 2px solid orange;
+  color: orange;
+}

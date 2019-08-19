@@ -9,6 +9,7 @@
     <!-- stylings -->
     
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/effect.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="import" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
 
@@ -65,7 +66,7 @@
 
 <section id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="img/logo.png" alt="" width="70px"> 
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,23 +74,23 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end pr-5 mr-5" id="navbarNav" >
                     <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item active effect-underline">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#aboutUs">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#aboutUs">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">Process</a>
+                        <a class="nav-link " href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">Project</a>
+                        <a class="nav-link " href="#process">Process</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">Inspiration</a>
+                        <a class="nav-link " href="#inspire">Inspiration</a>
                     </li>
                     </ul>
                 </div>
@@ -102,11 +103,11 @@
                 <div class="progress position-relative PL-5" style="height: 4px; top:300px">
                     <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <span><img src="png-icons/e-mail-envelope.png" alt="" width="50px"></span>
+                <!-- <span><img src="png-icons/e-mail-envelope.png" alt="" width="50px"></span> -->
             </div>
 
             <div class="col-md-9 headerImg text-left">
-                <h6 class="myHeader">Interio designs</h6><br>
+                <h6 class="myHeader">Interior designs</h6><br>
                 <h3 class="welcome">Welcome to mayfair design studio</h3><br>
                 <h5>Lorem ipsum dolor sit amet consectetur adipisicing.</h5><br>
                 <button class="btn bg-transparent border border-warning border-top-0 border-left-0 border-right-0 mybtn text-light">
@@ -119,14 +120,14 @@
            
         </div>
         <div class="row">
-            <div class="col-md-6 offset-md-6 position-relative" style="top:150px">
-                <p style="float:left; font-weight: 700" class="pt-5 pr-3">EXPLORE </p>
-                <img src="png-icons/download.png" alt="" width="40px" height="60" style="border: 2px solid white; padding: 0px 6px 10px 6px">
-                <img src="img/1.png" alt="" width="90px">
-                <img src="img/brand1.jpg" alt="" width="100px">
-                <img src="img/jobC.png" alt="" width="90px">
-                <img src="img/didC.png" alt="" width="90px">
-                <img src="img/star.png" alt="" width="90px">
+            <div class="col-md-6 offset-md-6 position-relative brands-img" style="top:150px">
+                <p style="float:left; font-weight: 700" class="pt-5 pr-3 explore">EXPLORE </p>
+                <img class="img-fluid arrow-down" src="png-icons/download.png" alt="" width="40px" height="60" style="border: 2px solid white; padding: 0px 6px 10px 6px">
+                <img class="img-fluid img-1" src="img/1.png" alt="" width="90px">
+                <img class="img-fluid img-2" src="img/brand1.jpg" alt="" width="100px">
+                <img class="img-fluid img-3" src="img/jobC.png" alt="" width="90px">
+                <img class="img-fluid img-4" src="img/didC.png" alt="" width="90px">
+                <img class="img-fluid img-5" src="img/star.png" alt="" width="90px">
             </div>
         </div>
     </div>
@@ -136,36 +137,36 @@
 
 
     <!-- section three -->
-    <div class="container-fluid pt-200">
+    <div class="container-fluid pt-200 carousel-box" id="aboutUs">
         <div class="row">
             <div class="col-md-6 offset-md-0">
                 <!-- carousel -->
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img class="d-block w-100 img-fluid" src="img/M.jpg" alt="First slide" width="50%">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="img/M.jpg" alt="Second slide" width="50%">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="img/M.jpg" alt="Third slide" width="50%">
-                          </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img class="d-block w-100 img-fluid" src="img/M.jpg" alt="First slide" width="50%">
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
-                      </div>
+                        <div class="carousel-item">
+                        <img class="d-block w-100" src="img/M.jpg" alt="Second slide" width="50%">
+                        </div>
+                        <div class="carousel-item">
+                        <img class="d-block w-100" src="img/M.jpg" alt="Third slide" width="50%">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
             <div class="col-md-6 pt-5 pl-5">
                 <h1>We've been Designing for <br> almost <span style="color: orange;">24 Years.</span> </h1>
@@ -201,14 +202,14 @@
                         </div>
                     </div>
                 </div>
-                <a class="btn-yel" href="#">DISCOVER MORE</a>
+                <a class="btn-yel" href="#inspire" style="text-decoration: none"><b>DISCOVER MORE</b></a>
 
             </div>
         </div>
     </div>
 
     <!-- next section -->
-    <div class="projects">
+    <div class="projects" id="projects">
         <div class="projects-head">
             <h1>PROJECTS</h1>
         </div>
@@ -224,11 +225,11 @@
                 </div>
             </div>
         </div>
-        <a class="view" href="#">VIEW MORE</a>
+        <a class="view" href="https://www.mayfairdesigngroup.com/GALLERY/"  style="text-decoration: none">VIEW MORE</a>
     </div>
 
     <!-- next section -->
-    <section class="process">
+    <section class="process" id="process">
         <div class="process-head">
             <h1 class="process-text text-dark pt-5">PROCESS</h1>
         </div>
@@ -237,39 +238,39 @@
                 <div class="col-md-2">
                     <img src="icons/wireframe.png" alt="" width="70px;">
                     <h4 class="process-h"><b>PROGRAMMING</b></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <p id="processTxt">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
                 <div class="col-md-2">
                     <img src="icons/design.svg" alt="" width="70px;">
                     <h4 class="process-h"><b>SCHEMATIC DESIGN</b></h4>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                    <p id="processTxt">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
                 <div class="col-md-2">
                     <img src="icons/noun_architecture design_1412323.svg" alt="" width="70px;">
                     <h4 class="process-h"><b>DESIGN DEVELOPMENT</b></h4>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                    <p id="processTxt">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
                 <div class="col-md-2">
                     <img src="icons/hhhh.svg" alt="" width="70px;">
                     <h4 class="process-h"><b>MOCK UP ROOM DESIGN</b></h4>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                    <p id="processTxt">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
                 <div class="col-md-2">
                     <img src="icons/server.svg" alt="" width="70px;">
                     <h4 class="process-h"><b>CONDITIONS | <br>INSTALLATION &<br>SUPERVISION</b></BR></h4>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                    <p id="processTxt">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
                 <div class="col-md-2">
                     <img src="icons/noun_delivery_1379469.svg" alt="" width="70px;">
                     <h4 class="process-h"><b>DELIVERY</b></h4>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+                    <p id="processTxt">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- next sectiion -->
-    <div class="inspire">
+    <div class="inspire" id="inspire">
         <div class="inspire-head">
             <h1 class="inspire-text process-text text-dark pt-5">INSPIRATION</h1>
         </div>
@@ -314,7 +315,7 @@
                             Get a quote or request a call and we'll get back to you. Our specialist 
                             will discuss all necessary <br> details with you and provide you an estimate for free.
                         </p>
-                        <form action="" class="form pt-3">
+                        <form action="mailto:hello@mayfairstudio.com" class="form pt-3">
                             <input type="email" name="" id="email" class="cardEmail" placeholder="YourEmail@example.com">
                             <input type="submit" class="cardSummit" value="GET A QUOTE">
                         </form>
@@ -339,21 +340,21 @@
                 </div>
                 <div class="col-md-2 footer-service pt-5">
                     <h3 style="font-weight: 600; font-size:20px;">SERVICES</h3>
-                    <p>Residential Design</p>
-                    <p>Commercial Design</p>
-                    <p>Hospitality Design</p>
-                    <p>Property Development</p>
-                    <p>Shop Fitting Services</p>
-                    <p>Procurement Services</p>
+                    <p><a href="#">Residential Design</a></p>
+                    <p><a href="#">Commercial Design</a></p>
+                    <p><a href="#">Hospitality Design</a></p>
+                    <p><a href="#">Property Development</a></p>
+                    <p><a href="#">Shop Fitting Services</a></p>
+                    <p><a href="#">Procurement Services</a></p>
                 </div>
                 <div class="col-md-2 footer-link pt-5">
                     <h3 style="font-weight: 600; font-size:20px">LINKS</h3>
-                    <p>About</p>
-                    <p>Process</p>
-                    <p>Projects</p>
-                    <p>FAQ</p>
-                    <p>Shop</p>
-                    <p>Contact</p>
+                    <p><a href="#">About</a></p>
+                    <p><a href="#">Process</a></p>
+                    <p><a href="#">Projects</a></p>
+                    <p><a href="#">FAQ</a></p>
+                    <p><a href="#">Shop</a></p>
+                    <p><a href="#">Contact</a></p>
                 </div>
                 <div class="col-md-3 footer-contact pt-5">
                     <!-- <img src="png-icons/index.png" alt="" width="20px"> -->
@@ -385,13 +386,25 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
-<!-- <script>
-function year() {
-    var d = new Date();
-    var n = getFullYear();
-    document.getElementById('date').innerHTML = n;
-}
-</script> -->
+<script>
+
+$(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('#startchange');
+   var offset = startchange.offset();
+    if (startchange.length){
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $(".navbar-default").css('background-color', 'orange');
+       } else {
+          $('.navbar-default').css('background-color', 'transparent');
+       }
+   });
+    }
+});
+
+</script>
 
 </body>
 </html>
