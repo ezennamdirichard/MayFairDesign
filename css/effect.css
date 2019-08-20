@@ -56,3 +56,27 @@ to{border-right-color: transparent;}
     font-size: 80px;
   }
 } */
+
+
+button a        {    
+  padding:20px;
+  width:100%;
+  display: block;
+  background-image: linear-gradient(to left,
+                    transparent,
+                    transparent 50%,
+                    white 50%,
+                    orange);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
+  font-weight: 700;
+}
+
+button a:hover {
+  background-position: 0 0;
+  color: white;
+  text-decoration-line: none;
+  border: none !important;
+  font-weight: 700;
+}

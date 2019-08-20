@@ -74,7 +74,7 @@
 .view{
     text-align: center;
     display: block;
-    border: 2px solid yellow;
+    border: 2px solid orange;
     padding: 20px 30px;
     width:  15%;
     position: relative;
@@ -279,6 +279,22 @@ a:hover{
         margin-bottom: 5em;
         left: 100px;
     }.copy{text-align: center;}
+}
+.envelope{
+    position: relative;
+    top: 400px;
+    right: 90px;
+    padding-top: 10px;
+    display: block;
+    border: 3px solid orange;
+    height: 55px;
+}
+.envelope:hover{
+    background-color: orange;
+}
+.play-icon{
+    position: absolute;
+    top: 160px;
 }
 
 

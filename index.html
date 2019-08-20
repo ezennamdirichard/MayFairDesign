@@ -64,6 +64,8 @@
             .meHide{
                 display: none
             }
+        }   .play-icon{
+            display: none;
         }
     </style>
 </head>
@@ -104,20 +106,23 @@
 
     <div class="container">
         <div class="row text-light">
-            <div class="col-md-3 meHide barLine">
-                <span><img src="png-icons/e-mail-envelope.png" alt="" width="50px" class="img-fluid"></span>
+            <div class="col-md-1 envelope">
+                <span><img src="png-icons/e-mail-envelope.png" alt="" width="70px" class="img-fluid"></span>
+            </div>
+            <div class="col-md-2 meHide barLine">
                 <div class="progress position-relative pl-5" style="height: 4px; top:300px">
-                    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                    <img src="png-icons/noun_play.svg" alt="" width="40px">
+                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    <span><img src="png-icons/noun_play.svg" alt="" class="img-fluid play-icon" width="40px"></span>
                 </div>
+                
             </div>
 
             <div class="col-md-9 headerImg text-left" data-aos="fade-left" data-aos-duration="2000">
                 <h5 class="myHeader" style="font-size: 20px">Interior designs</h5><br>
-                <h3 class="welcome">Welcome to mayfair design studio</h3><br>
+                <h3 class="welcome">WELCOME TO MAYFAIR DESIGN STUDIO</h3><br>
                 <h5><b>Full Service Architecture and Hospitality Interior Design <br><br> Firm.</b></h5><br>
                 <button class="btn bg-transparent border border-warning border-top-0 border-left-0 border-right-0 mybtn text-light">
-                    <a href="#">Tell us more</a>
+                    <a href="#about" >Tell us more</a>
                 </button>
 
 
