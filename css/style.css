@@ -186,6 +186,12 @@ a:hover{
     /* body{
         width: 365px auto;
     } */
+    #btnDL,#btnDR{
+        display: none;
+    }
+    .img-envelope{
+        display: none !important;
+    }
     .brands-img{
         width: 365px;
         margin-bottom: 5em;
@@ -279,7 +285,11 @@ a:hover{
         margin-bottom: 5em;
         left: 100px;
     }.copy{text-align: center;}
+    .brandLogo{
+        width: 100px;
+    }
 }
+
 .envelope{
     position: relative;
     top: 400px;
@@ -292,9 +302,31 @@ a:hover{
 .envelope:hover{
     background-color: orange;
 }
-.play-icon{
-    position: absolute;
+/* .play-icon{
+    position:;
     top: 160px;
+} */
+.letter-one,.letter-five{
+    /* border: 20px solid orange; */
+    display: block;
+    color: black;
+    /* transform: rotate(-90deg); */
+    font-weight: 700;
+    position: relative;
 }
-
+.letter-one{
+    top: 42%;
+    left: 45%;
+}
+.letter-five{
+    top: 77%;
+    left: 45%;
+}
+.play-icon{
+    position: relative;
+    top: 80%;
+    left: 45%;
+    width: 20px;
+    display: inherit;
+}
 

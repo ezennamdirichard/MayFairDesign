@@ -60,13 +60,13 @@
     /* .meHIde{
         transform: skewX(90deg);
 } */
-        @media(max-width:991px) {
+        /* @media(max-width:740px) {
             .meHide{
                 display: none
             }
         }   .play-icon{
             display: none;
-        }
+        } */
     </style>
 </head>
 <body id="Scrollspy" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -74,7 +74,7 @@
 <section id="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
                 <a class="navbar-brand pl-5" href="index.html">
-                    <img src="img/main-logo.jpg" alt="" width="200px"> 
+                    <img src="img/main-logo.jpg" alt="" width="200px" class="brandLogo"> 
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -82,22 +82,22 @@
                 <div class="collapse navbar-collapse justify-content-end pr-5 mr-5" id="navbarNav" >
                     <ul class="navbar-nav">
                     <li class="nav-item  effect-underline">
-                        <a class="nav-link" href="index.html"><b>Home</b> <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html"><b>HOME</b> <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#aboutUs"><b>About</b></a>
+                        <a class="nav-link" href="#aboutUs"><b>ABOUT</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#aboutUs"><b>Services</b></a>
+                        <a class="nav-link" href="#aboutUs"><b>SERVICES</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#projects"><b>Projects</b></a>
+                        <a class="nav-link " href="#projects"><b>PROJECTS</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#process"><b>Process</b></a>
+                        <a class="nav-link " href="#process"><b>PROCESS</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#inspire"><b>Inspiration</b></a>
+                        <a class="nav-link " href="#inspire"><b>INSPIRATION</b></a>
                     </li>
                     </ul>
                 </div>
@@ -105,20 +105,21 @@
             </nav>
 
     <div class="container">
-        <div class="row text-light">
+        <div class="row">
             <div class="col-md-1 envelope">
-                <span><img src="png-icons/e-mail-envelope.png" alt="" width="70px" class="img-fluid"></span>
+                <span><img src="png-icons/e-mail-envelope.png" alt="" width="70px" class="img-fluid img-envelope"></span>
             </div>
-            <div class="col-md-2 meHide barLine">
-                <div class="progress position-relative pl-5" style="height: 4px; top:300px">
-                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                    <span><img src="png-icons/noun_play.svg" alt="" class="img-fluid play-icon" width="40px"></span>
+            <div class="col-md-2 meHide ">
+                <span class="letter-one">01</span>
+                <div class="progress position-relative pl-5 barLine" style="height: 1%; top:300px">
+                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                
+                <span class="letter-five">05</span>
+                <span><img src="png-icons/noun_play.svg" alt="" class="img-fluid play-icon" width=""></span>
             </div>
 
-            <div class="col-md-9 headerImg text-left" data-aos="fade-left" data-aos-duration="2000">
-                <h5 class="myHeader" style="font-size: 20px">Interior designs</h5><br>
+            <div class="col-md-9 headerImg text-left text-light" data-aos="fade-left" data-aos-duration="2000">
+                <h5 class="myHeader" style="font-size: 25px">Interior designs</h5><br>
                 <h3 class="welcome">WELCOME TO MAYFAIR DESIGN STUDIO</h3><br>
                 <h5><b>Full Service Architecture and Hospitality Interior Design <br><br> Firm.</b></h5><br>
                 <button class="btn bg-transparent border border-warning border-top-0 border-left-0 border-right-0 mybtn text-light">
@@ -380,7 +381,7 @@
                     <!-- <img src="png-icons/index.png" alt="" width="20px"> -->
                     <span><b>Ashtead Block 3 Cardogan palace estate, jakande-lekki lagos</b></span><br>
                     <!-- <img src="png-icons/" alt=""> -->
-                    <span class="pt-3 phone"><a href="call: +234 806 9857"><b>+234 806 9857</b></a></span>
+                    <span class="pt-3 phone"><a href="call: +234 806 9857"><b>+234 806 956 857</b></a></span>
                 </div>
                 <div class="col-md-2">
                     <div class="project-add position-relative">PROJECT  <span><img src="png-icons/cross.png" alt="" width="30px;"></span></div>
